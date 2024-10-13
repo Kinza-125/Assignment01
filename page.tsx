@@ -1,15 +1,12 @@
-import cssStyle from "./about.module.css";
-console.log(cssStyle,"CSS-Style");
 import React from 'react'
 
-const Aboutpage = () => {
+const Contactpage = () => {
   return (
     <div>
-      
-    <h1 className={cssStyle.green}><b>This is my about page</b></h1>
-    <h2 className={cssStyle.yellow}><b>ABOUT</b></h2>
+      <h1><b>This is my contact page</b></h1>
+      <h2><i>plz contact-us</i></h2>
     </div>
   )
 }
 
-export default Aboutpage
+export default Contactpage
