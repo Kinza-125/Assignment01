@@ -1,12 +1,15 @@
+import cssStyle from "./about.module.css";
+console.log(cssStyle,"CSS-Style");
 import React from 'react'
 
-const Servicepage = () => {
+const Aboutpage = () => {
   return (
     <div>
-      <h1><i>our web-develoment</i></h1>
-      <h2>This is our service page</h2>
+      
+    <h1 className={cssStyle.green}><b>This is my about page</b></h1>
+    <h2 className={cssStyle.yellow}><b>ABOUT</b></h2>
     </div>
   )
 }
 
-export default Servicepage
+export default Aboutpage
