@@ -1,13 +1,12 @@
 import React from 'react'
 
-const Homepage = () => {
+const Servicepage = () => {
   return (
-    <div className='home'> 
-        <h1><b> This is my page</b></h1>
-         
-      
+    <div>
+      <h1><i>our web-develoment</i></h1>
+      <h2>This is our service page</h2>
     </div>
   )
 }
 
-export default Homepage
+export default Servicepage
