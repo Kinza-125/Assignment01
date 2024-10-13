@@ -1,12 +1,13 @@
 import React from 'react'
 
-const Contactpage = () => {
+const Homepage = () => {
   return (
-    <div>
-      <h1><b>This is my contact page</b></h1>
-      <h2><i>plz contact-us</i></h2>
+    <div className='home'> 
+        <h1><b> This is my page</b></h1>
+         
+      
     </div>
   )
 }
 
-export default Contactpage
+export default Homepage
